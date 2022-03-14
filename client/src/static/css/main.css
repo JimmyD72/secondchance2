@@ -1,0 +1,48 @@
+body {
+  z-index: 0;
+  background-color: #f0f2f5;
+}
+
+.center {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.4em;
+}
+
+.lead-2 {
+  font-size: 1.3em;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-6 {
+  margin-top: 40px;
+}
+
+.center-card {
+  max-width: 850px;
+  margin: auto;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.white-link .white-link:active {
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .mobile-only {
+    display: block;
+    transition: display 2s;
+  }
+}
